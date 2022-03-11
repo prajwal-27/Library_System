@@ -6,57 +6,34 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Online Library</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="cs.css">
+  <link rel="stylesheet" href="../static/css/style.css">
+  <!--<link rel="stylesheet" href="../static/css/civil.css">-->
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
   <!-- CSS only -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
 </head>
 
 <body>
   <header class="menu-bar">
-
-    <img class="logo" src="logo.png" alt="logo">
-
+    
+    <a href="../templates/index.html"><img class="logo" src="../static/images/logo.jpg" alt="logo"></a>
 
     <ul>
-      <li id="#home" class=""><a href="/index.html">Home</a></li>
-      <li id="1styear" class=""><a href="#name">1st Year</a>
-        <div class="sub-menu-1">
-          <ul>
-            <li><a href="#name">Semester I</a></li>
-            <li><a href="#name">Semester II</a></li>
-          </ul>
-        </div>
-      </li>
-      <li><a href="#">Branch</a>
-        <div class="sub-menu-1">
-          <ul>
-            <li><a href="#civil">Civil Engineering</a></li>
-            <li><a href="#mech">Mechanical Engineering</a></li>
-            <li><a href="#elecrtonics">Electronics Engineering</a></li>
-            <li><a href="#electrical">Electrical Engineering</a></li>
-            <li><a href="#etc">Electronics & Telecommunication Engineering</a></li>
-            <li><a href="#ct">Computer Technology</a></li>
-            <li><a href="#it">Information Technology</a></li>
-          </ul>
-        </div>
-      </li>
+      <li id="#home" class=""><a href="../templates/index.html">Home</a></li>
     </ul>
   </header>
+
+  <div class="brand">
+    Computer Technology
+  </div>
   <div id="accordion">
-
-    <h1>Computer Technology</h1>
-
-
-
 
     <div class="Semester w3-margin">
       <!-- <input type="checkbox" checked> -->
       <!-- <i></i> -->
-      <div class="button w3-btn w3-block w3-light-green w3-left-align" onclick="myFunction('Demo1')">Third Semester
+      <div class="button w3-btn w3-block w3-center-align" onclick="myFunction('Demo1')">Third Semester
       </div>
       <div class="madi w3-container w3-hide" id="Demo1">
 
@@ -64,7 +41,7 @@
         <ul>
           <li>
             <!-- Button trigger modal -->
-            <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <button type="button" class="btn btn1" data-bs-toggle="modal" data-bs-target="#exampleModal">
               GE2201 - Engineering Mathematics III
             </button>
 
@@ -79,13 +56,13 @@
                   </div>
                   <div class="modal-body">
                     <a download="Engineering Mathematics III (1).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (1).pdf">GE2201 - Engineering
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (1).pdf">GE2201 - Engineering
                       Mathematics III (1)</a> <br>
                     <a download="Engineering Mathematics III (2).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (2).pdf">GE2201 - Engineering Mathematics III
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (2).pdf">GE2201 - Engineering Mathematics III
                       (2)</a> <br>
                     <a download="Engineering Mathematics III (3).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (3).pdf">GE2201 - Engineering
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (3).pdf">GE2201 - Engineering
                       Mathematics III (3)</a> <br>
 
                   </div>
@@ -102,7 +79,7 @@
         <ul>
           <li>
             <!-- Button trigger modal -->
-            <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal1">
+            <button type="button" class="btn btn1" data-bs-toggle="modal" data-bs-target="#exampleModal1">
               CT2201-Computer Architecture & Organisation
             </button>
 
@@ -117,13 +94,13 @@
                   </div>
                   <div class="modal-body">
                     <a download="CT2201-Computer Architecture & Organisation (1).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (1).pdf">CT2201-Computer Architecture &
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (1).pdf">CT2201-Computer Architecture &
                       Organisation (1)</a> <br>
                     <a download="CT2201-Computer Architecture & Organisation (2).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (2).pdf">CT2201-Computer Architecture &
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (2).pdf">CT2201-Computer Architecture &
                       Organisation (2)</a> <br>
                     <a download="CT2201-Computer Architecture & Organisation (3).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (3).pdf">CT2201-Computer Architecture &
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (3).pdf">CT2201-Computer Architecture &
                       Organisation (3)</a> <br>
 
                   </div>
@@ -140,7 +117,7 @@
         <ul>
           <li>
             <!-- Button trigger modal -->
-            <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal2">
+            <button type="button" class="btn btn1" data-bs-toggle="modal" data-bs-target="#exampleModal2">
               CT2202-Object Oriented Programming
             </button>
 
@@ -155,13 +132,13 @@
                   </div>
                   <div class="modal-body">
                     <a download="CT2202-Object Oriented Programming (1).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (1).pdf">CT2202-Object Oriented Programming
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (1).pdf">CT2202-Object Oriented Programming
                       (1)</a> <br>
                     <a download="CT2202-Object Oriented Programming (2).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (2).pdf">CT2202-Object Oriented Programming
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (2).pdf">CT2202-Object Oriented Programming
                       (2)</a> <br>
                     <a download="CT2202-Object Oriented Programming (3).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (3).pdf">CT2202-Object Oriented Programming
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (3).pdf">CT2202-Object Oriented Programming
                       (3)</a> <br>
 
                   </div>
@@ -179,7 +156,7 @@
         <ul>
           <li>
             <!-- Button trigger modal -->
-            <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal3">
+            <button type="button" class="btn btn1" data-bs-toggle="modal" data-bs-target="#exampleModal3">
               CT2204-Data Structures
             </button>
 
@@ -194,11 +171,11 @@
                   </div>
                   <div class="modal-body">
                     <a download="CT2204-Data Structures (1).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (1).pdf">CT2204-Data Structures (1)</a> <br>
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (1).pdf">CT2204-Data Structures (1)</a> <br>
                     <a download="CT2204-Data Structures (2).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (2).pdf">CT2204-Data Structures (2)</a> <br>
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (2).pdf">CT2204-Data Structures (2)</a> <br>
                     <a download="CT2204-Data Structures (3).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (3).pdf">CT2204-Data Structures (3)</a> <br>
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (3).pdf">CT2204-Data Structures (3)</a> <br>
 
                   </div>
                   <div class="modal-footer">
@@ -218,7 +195,7 @@
     <div class="Semester w3-margin">
       <!-- <input type="checkbox" checked> -->
       <!-- <i></i> -->
-      <div class="button w3-btn w3-block w3-light-green w3-left-align" onclick="myFunction('Demo2')">Fourth Semester
+      <div class="button w3-btn w3-block w3-center-align" onclick="myFunction('Demo2')">Fourth Semester
       </div>
       <div class="madi w3-container w3-hide" id="Demo2">
 
@@ -226,7 +203,7 @@
         <ul>
           <li>
             <!-- Button trigger modal -->
-            <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal4">
+            <button type="button" class="btn btn1" data-bs-toggle="modal" data-bs-target="#exampleModal4">
               GE2206-Discrete Mathematics and Probability Theory
             </button>
 
@@ -242,13 +219,13 @@
                   </div>
                   <div class="modal-body">
                     <a download="GE2206-Discrete Mathematics and Probability Theory (1).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (1).pdf">GE2206-Discrete Mathematics and
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (1).pdf">GE2206-Discrete Mathematics and
                       Probability Theory (1)</a> <br>
                     <a download="GE2206-Discrete Mathematics and Probability Theory (2).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (2).pdf">GE2206-Discrete Mathematics and
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (2).pdf">GE2206-Discrete Mathematics and
                       Probability Theory (2)</a> <br>
                     <a download="GE2206-Discrete Mathematics and Probability Theory (3).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (3).pdf">GE2206-Discrete Mathematics and
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (3).pdf">GE2206-Discrete Mathematics and
                       Probability Theory (3)</a> <br>
 
                   </div>
@@ -265,7 +242,7 @@
         <ul>
           <li>
             <!-- Button trigger modal -->
-            <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal5">
+            <button type="button" class="btn btn1" data-bs-toggle="modal" data-bs-target="#exampleModal5">
               CT2251-Operating Systems
             </button>
 
@@ -280,11 +257,11 @@
                   </div>
                   <div class="modal-body">
                     <a download="CT2251-Operating Systems (1).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (1).pdf">CT2251-Operating Systems (1)</a> <br>
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (1).pdf">CT2251-Operating Systems (1)</a> <br>
                     <a download="CT2251-Operating Systems (2).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (2).pdf">CT2251-Operating Systems (2)</a> <br>
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (2).pdf">CT2251-Operating Systems (2)</a> <br>
                     <a download="CT2251-Operating Systems (3).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (3).pdf">CT2251-Operating Systems (3)</a> <br>
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (3).pdf">CT2251-Operating Systems (3)</a> <br>
 
                   </div>
                   <div class="modal-footer">
@@ -301,7 +278,7 @@
         <ul>
           <li>
             <!-- Button trigger modal -->
-            <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal6">
+            <button type="button" class="btn btn1" data-bs-toggle="modal" data-bs-target="#exampleModal6">
               CT2253-Advanced Data Structures
             </button>
 
@@ -316,13 +293,13 @@
                   </div>
                   <div class="modal-body">
                     <a download="CT2253-Advanced Data Structures (1).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (1).pdf">CT2253-Advanced Data Structures
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (1).pdf">CT2253-Advanced Data Structures
                       (1)</a> <br>
                     <a download="CT2253-Advanced Data Structures (2).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (2).pdf">CT2253-Advanced Data Structures
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (2).pdf">CT2253-Advanced Data Structures
                       (2)</a> <br>
                     <a download="CT2253-Advanced Data Structures (3).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (3).pdf">CT2253-Advanced Data Structures
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (3).pdf">CT2253-Advanced Data Structures
                       (3)</a> <br>
 
                   </div>
@@ -339,7 +316,7 @@
         <ul>
           <li>
             <!-- Button trigger modal -->
-            <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal7">
+            <button type="button" class="btn btn1" data-bs-toggle="modal" data-bs-target="#exampleModal7">
               CT2255-Mathematical Foundations for Data Analysis
             </button>
 
@@ -355,13 +332,13 @@
                   </div>
                   <div class="modal-body">
                     <a download="CT2255-Mathematical Foundations for Data Analysis (1).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (1).pdf">CT2255-Mathematical Foundations for
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (1).pdf">CT2255-Mathematical Foundations for
                       Data Analysis (1)</a> <br>
                     <a download="CT2255-Mathematical Foundations for Data Analysis (2).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (2).pdf">CT2255-Mathematical Foundations for
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (2).pdf">CT2255-Mathematical Foundations for
                       Data Analysis (2)</a> <br>
                     <a download="CT2255-Mathematical Foundations for Data Analysis (3).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (3).pdf">CT2255-Mathematical Foundations for
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (3).pdf">CT2255-Mathematical Foundations for
                       Data Analysis (3)</a> <br>
 
                   </div>
@@ -378,7 +355,7 @@
         <ul>
           <li>
             <!-- Button trigger modal -->
-            <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal8">
+            <button type="button" class="btn btn1" data-bs-toggle="modal" data-bs-target="#exampleModal8">
               CT2257-Database Management Systems
             </button>
 
@@ -393,13 +370,13 @@
                   </div>
                   <div class="modal-body">
                     <a download="CT2257-Database Management Systems (1).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (1).pdf">CT2257-Database Management Systems
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (1).pdf">CT2257-Database Management Systems
                       (1)</a> <br>
                     <a download="CT2257-Database Management Systems (2).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (2).pdf">CT2257-Database Management Systems
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (2).pdf">CT2257-Database Management Systems
                       (2)</a> <br>
                     <a download="CT2257-Database Management Systems (3).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (3).pdf">CT2257-Database Management Systems
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (3).pdf">CT2257-Database Management Systems
                       (3)</a> <br>
 
                   </div>
@@ -418,7 +395,7 @@
     <div class="Semester w3-margin">
       <!-- <input type="checkbox" checked> -->
       <!-- <i></i> -->
-      <div class="button w3-btn w3-block w3-light-green w3-left-align" onclick="myFunction('Demo3')">Fifth Semester
+      <div class="button w3-btn w3-block w3-center-align" onclick="myFunction('Demo3')">Fifth Semester
       </div>
       <div class="madi w3-container w3-hide" id="Demo3">
 
@@ -428,7 +405,7 @@
         <ul>
           <li>
             <!-- Button trigger modal -->
-            <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal9">
+            <button type="button" class="btn btn1" data-bs-toggle="modal" data-bs-target="#exampleModal9">
               GE2312-Fundamental of Economics
             </button>
 
@@ -444,13 +421,13 @@
                   </div>
                   <div class="modal-body">
                     <a download="GE2312-Fundamental of Economics (1).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (1).pdf">GE2312-Fundamental of Economics
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (1).pdf">GE2312-Fundamental of Economics
                       (1)</a> <br>
                     <a download="GE2312-Fundamental of Economics (2).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (2).pdf">GE2312-Fundamental of Economics
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (2).pdf">GE2312-Fundamental of Economics
                       (2)</a> <br>
                     <a download="GE2312-Fundamental of Economics (3).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (3).pdf">GE2312-Fundamental of Economics
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (3).pdf">GE2312-Fundamental of Economics
                       (3)</a> <br>
 
                   </div>
@@ -469,7 +446,7 @@
         <ul>
           <li>
             <!-- Button trigger modal -->
-            <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal11">
+            <button type="button" class="btn btn1" data-bs-toggle="modal" data-bs-target="#exampleModal11">
               CT2301-Computer Networks
             </button>
 
@@ -485,11 +462,11 @@
                   </div>
                   <div class="modal-body">
                     <a download="CT2301-Computer Networks (1).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (1).pdf">CT2301-Computer Networks (1)</a> <br>
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (1).pdf">CT2301-Computer Networks (1)</a> <br>
                     <a download="CT2301-Computer Networks (2).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (2).pdf">CT2301-Computer Networks (2)</a> <br>
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (2).pdf">CT2301-Computer Networks (2)</a> <br>
                     <a download="CT2301-Computer Networks (3).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (3).pdf">CT2301-Computer Networks (3)</a> <br>
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (3).pdf">CT2301-Computer Networks (3)</a> <br>
 
                   </div>
                   <div class="modal-footer">
@@ -505,7 +482,7 @@
         <ul>
           <li>
             <!-- Button trigger modal -->
-            <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal12">
+            <button type="button" class="btn btn1" data-bs-toggle="modal" data-bs-target="#exampleModal12">
               CT2303-Theoretical Foundations of Computer Science
             </button>
 
@@ -521,13 +498,13 @@
                   </div>
                   <div class="modal-body">
                     <a download="CT2303-Theoretical Foundations of Computer Science (1).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (1).pdf">CT2303-Theoretical Foundations of
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (1).pdf">CT2303-Theoretical Foundations of
                       Computer Science (1)</a> <br>
                     <a download="CT2303-Theoretical Foundations of Computer Science (2).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (2).pdf">CT2303-Theoretical Foundations of
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (2).pdf">CT2303-Theoretical Foundations of
                       Computer Science (2)</a> <br>
                     <a download="CT2303-Theoretical Foundations of Computer Science (3).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (3).pdf">CT2303-Theoretical Foundations of
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (3).pdf">CT2303-Theoretical Foundations of
                       Computer Science (3)</a> <br>
 
                   </div>
@@ -546,7 +523,7 @@
     <div class="Semester w3-margin">
       <!-- <input type="checkbox" checked> -->
       <!-- <i></i> -->
-      <div class="button w3-btn w3-block w3-light-green w3-left-align" onclick="myFunction('Demo4')">Sixth Semester
+      <div class="button w3-btn w3-block w3-center-align" onclick="myFunction('Demo4')">Sixth Semester
       </div>
       <div class="madi w3-container w3-hide" id="Demo4">
 
@@ -554,7 +531,7 @@
         <ul>
           <li>
             <!-- Button trigger modal -->
-            <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal13">
+            <button type="button" class="btn btn1" data-bs-toggle="modal" data-bs-target="#exampleModal13">
               GE2311-Fundamental of Management
             </button>
 
@@ -570,13 +547,13 @@
                   </div>
                   <div class="modal-body">
                     <a download="GE2311-Fundamental of Management (1).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (1).pdf">GE2311-Fundamental of Management
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (1).pdf">GE2311-Fundamental of Management
                       (1)</a> <br>
                     <a download="GE2311-Fundamental of Management (2).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (2).pdf">GE2311-Fundamental of Management
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (2).pdf">GE2311-Fundamental of Management
                       (2)</a> <br>
                     <a download="GE2311-Fundamental of Management (3).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (3).pdf">GE2311-Fundamental of Management
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (3).pdf">GE2311-Fundamental of Management
                       (3)</a> <br>
 
                   </div>
@@ -593,7 +570,7 @@
         <ul>
           <li>
             <!-- Button trigger modal -->
-            <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal14">
+            <button type="button" class="btn btn1" data-bs-toggle="modal" data-bs-target="#exampleModal14">
               CT2351-Design & Analysis of Algorithms
             </button>
 
@@ -609,13 +586,13 @@
                   </div>
                   <div class="modal-body">
                     <a download="CT2351-Design & Analysis of Algorithms (1).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (1).pdf">CT2351-Design & Analysis of
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (1).pdf">CT2351-Design & Analysis of
                       Algorithms (1)</a> <br>
                     <a download="CT2351-Design & Analysis of Algorithms (2).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (2).pdf">CT2351-Design & Analysis of
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (2).pdf">CT2351-Design & Analysis of
                       Algorithms (2)</a> <br>
                     <a download="CT2351-Design & Analysis of Algorithms (3).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (3).pdf">CT2351-Design & Analysis of
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (3).pdf">CT2351-Design & Analysis of
                       Algorithms (3)</a> <br>
 
                   </div>
@@ -633,7 +610,7 @@
         <ul>
           <li>
             <!-- Button trigger modal -->
-            <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal15">
+            <button type="button" class="btn btn1" data-bs-toggle="modal" data-bs-target="#exampleModal15">
               CT2353-Language Processor
             </button>
 
@@ -649,13 +626,13 @@
                   </div>
                   <div class="modal-body">
                     <a download="CT2353-Language Processor (1).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (1).pdf">CT2353-Language Processor (1)</a>
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (1).pdf">CT2353-Language Processor (1)</a>
                     <br>
                     <a download="CT2353-Language Processor (2).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (2).pdf">CT2353-Language Processor (2)</a>
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (2).pdf">CT2353-Language Processor (2)</a>
                     <br>
                     <a download="CT2353-Language Processor (3).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (3).pdf">CT2353-Language Processor (3)</a>
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (3).pdf">CT2353-Language Processor (3)</a>
                     <br>
 
                   </div>
@@ -672,7 +649,7 @@
         <ul>
           <li>
             <!-- Button trigger modal -->
-            <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal16">
+            <button type="button" class="btn btn1" data-bs-toggle="modal" data-bs-target="#exampleModal16">
               CT2355-Software Engineering
             </button>
 
@@ -688,13 +665,13 @@
                   </div>
                   <div class="modal-body">
                     <a download="CT2355-Software Engineering (1).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (1).pdf">CT2355-Software Engineering (1)</a>
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (1).pdf">CT2355-Software Engineering (1)</a>
                     <br>
                     <a download="CT2355-Software Engineering (2).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (2).pdf">CT2355-Software Engineering (2)</a>
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (2).pdf">CT2355-Software Engineering (2)</a>
                     <br>
                     <a download="CT2355-Software Engineering (3).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (3).pdf">CT2355-Software Engineering (3)</a>
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (3).pdf">CT2355-Software Engineering (3)</a>
                     <br>
 
                   </div>
@@ -713,7 +690,7 @@
     <div class="Semester w3-margin">
       <!-- <input type="checkbox" checked> -->
       <!-- <i></i> -->
-      <div class="button w3-btn w3-block w3-light-green w3-left-align" onclick="myFunction('Demo5')">Seventh
+      <div class="button w3-btn w3-block w3-center-align" onclick="myFunction('Demo5')">Seventh
         Semester</div>
       <div class="madi w3-container w3-hide" id="Demo5">
 
@@ -721,7 +698,7 @@
         <ul>
           <li>
             <!-- Button trigger modal -->
-            <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal17">
+            <button type="button" class="btn btn1" data-bs-toggle="modal" data-bs-target="#exampleModal17">
               CT2401-Artificial Intelligence
             </button>
 
@@ -737,15 +714,15 @@
                   </div>
                   <div class="modal-body">
                     <a download="CT2401-Artificial Intelligence (1).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (1).pdf">CT2401-Artificial Intelligence
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (1).pdf">CT2401-Artificial Intelligence
                       (1)</a>
                     <br>
                     <a download="CT2401-Artificial Intelligence (2).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (2).pdf">CT2401-Artificial Intelligence
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (2).pdf">CT2401-Artificial Intelligence
                       (2)</a>
                     <br>
                     <a download="CT2401-Artificial Intelligence (3).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (3).pdf">CT2401-Artificial Intelligence
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (3).pdf">CT2401-Artificial Intelligence
                       (3)</a>
                     <br>
 
@@ -765,7 +742,7 @@
         <ul>
           <li>
             <!-- Button trigger modal -->
-            <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal18">
+            <button type="button" class="btn btn1" data-bs-toggle="modal" data-bs-target="#exampleModal18">
               CT2403-Network Security
             </button>
 
@@ -781,13 +758,13 @@
                   </div>
                   <div class="modal-body">
                     <a download="CT2403-Network Security (1).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (1).pdf">CT2403-Network Security (1)</a>
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (1).pdf">CT2403-Network Security (1)</a>
                     <br>
                     <a download="CT2403-Network Security (2).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (2).pdf">CT2403-Network Security (2)</a>
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (2).pdf">CT2403-Network Security (2)</a>
                     <br>
                     <a download="CT2403-Network Security (3).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (3).pdf">CT2403-Network Security (3)</a>
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (3).pdf">CT2403-Network Security (3)</a>
                     <br>
 
                   </div>
@@ -804,7 +781,7 @@
 
 
 
-    <script src="script.js"></script>
+    <script src="../static/javascript/script.js"></script>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">

@@ -6,61 +6,44 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Online Library</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="electronics.css">
+  <link rel="stylesheet" href="../static/css/style.css">
+  <!--<link rel="stylesheet" href="../static/css/civil.css">-->
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
   <!-- CSS only -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
 </head>
 
 <body>
   <header class="menu-bar">
-
-    <img class="logo" src="logo.png" alt="logo">
-
+    
+    <a href="../templates/index.html"><img class="logo" src="../static/images/logo.jpg" alt="logo"></a>
 
     <ul>
-      <li id="#home" class=""><a href="/index.html">Home</a></li>
-      <li id="1styear" class=""><a href="#name">1st Year</a>
-        <div class="sub-menu-1">
-          <ul>
-            <li><a href="#name">Semester I</a></li>
-            <li><a href="#name">Semester II</a></li>
-          </ul>
-        </div>
-      </li>
-      <li><a href="#">Branch</a>
-        <div class="sub-menu-1">
-          <ul>
-            <li><a href="#civil">Civil Engineering</a></li>
-            <li><a href="#mech">Mechanical Engineering</a></li>
-            <li><a href="#elecrtonics">Electronics Engineering</a></li>
-            <li><a href="#electrical">Electrical Engineering</a></li>
-            <li><a href="#etc">Electronics & Telecommunication Engineering</a></li>
-            <li><a href="#ct">Computer Technology</a></li>
-            <li><a href="#it">Information Technology</a></li>
-          </ul>
-        </div>
-      </li>
+      <li id="#home" class=""><a href="../templates/index.html">Home</a></li>
     </ul>
   </header>
 
+  <div class="brand">
+    Electronics & Telecommunication Engineering
+  </div>
   <div id="accordion">
-    <h1>Electronics Engineering</h1>
+    
     <div class="Semester w3-margin">
       <!-- <input type="checkbox" checked> -->
       <!-- <i></i> -->
-      <div class="button w3-btn w3-block w3-light-green w3-left-align" onclick="myFunction('Demo1')">Third Semester
+      <div class="button w3-btn w3-block w3-center-align" onclick="myFunction('Demo1')">Third Semester
       </div>
       <div class="madi w3-container w3-hide" id="Demo1">
+
+
 
         <!-- ------------------------------------bootstrap------------------------------------ -->
         <ul>
           <li>
             <!-- Button trigger modal -->
-            <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <button type="button" class="btn btn1" data-bs-toggle="modal" data-bs-target="#exampleModal">
               GE2201 - Engineering Mathematics III
             </button>
 
@@ -75,13 +58,13 @@
                   </div>
                   <div class="modal-body">
                     <a download="Engineering Mathematics III (1).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (1).pdf">GE2201 - Engineering
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (1).pdf">GE2201 - Engineering
                       Mathematics III (1)</a> <br>
                     <a download="Engineering Mathematics III (2).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (2).pdf">GE2201 - Engineering Mathematics III
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (2).pdf">GE2201 - Engineering Mathematics III
                       (2)</a> <br>
                     <a download="Engineering Mathematics III (3).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (3).pdf">GE2201 - Engineering
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (3).pdf">GE2201 - Engineering
                       Mathematics III (3)</a> <br>
 
                   </div>
@@ -94,13 +77,12 @@
           </li>
         </ul>
 
-
         <!-- ------------------------------------bootstrap------------------------------------ -->
         <ul>
           <li>
             <!-- Button trigger modal -->
-            <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal1">
-              EE2201-Electroics Devices
+            <button type="button" class="btn btn1" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+              ET2201-Electroics Devices and Circuits
             </button>
 
             <!-- Modal -->
@@ -109,18 +91,21 @@
               <div class="modal-dialog">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">EE2201-Electroics Devices</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">ET2201-Electroics Devices and Circuits</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
-                    <a download="EE2201-Electroics Devices (1).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (1).pdf">EE2201-Electroics Devices (1)</a>
+                    <a download="ET2201-Electroics Devices and Circuits (1).pdf"
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (1).pdf">ET2201-Electroics Devices and
+                      Circuits (1)</a>
                     <br>
-                    <a download="EE2201-Electroics Devices (2).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (2).pdf">EE2201-Electroics Devices (2)</a>
+                    <a download="ET2201-Electroics Devices and Circuits (2).pdf"
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (2).pdf">ET2201-Electroics Devices and
+                      Circuits (2)</a>
                     <br>
-                    <a download="EE2201-Electroics Devices (3).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (3).pdf">EE2201-Electroics Devices (3)</a>
+                    <a download="ET2201-Electroics Devices and Circuits (3).pdf"
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (3).pdf">ET2201-Electroics Devices and
+                      Circuits (3)</a>
                     <br>
 
                   </div>
@@ -137,8 +122,8 @@
         <ul>
           <li>
             <!-- Button trigger modal -->
-            <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal2">
-              EE2203-Signal and Systems
+            <button type="button" class="btn btn1" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+              ET2203-Digital Circuits and Fundamentals of Microprocessor
             </button>
 
             <!-- Modal -->
@@ -147,18 +132,22 @@
               <div class="modal-dialog">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">EE2203-Signal and Systems</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">ET2203-Digital Circuits and Fundamentals of
+                      Microprocessor</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
-                    <a download="EE2203-Signal and Systems (1).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (1).pdf">EE2203-Signal and Systems (1)</a>
+                    <a download="ET2203-Digital Circuits and Fundamentals of Microprocessor (1).pdf"
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (1).pdf">ET2203-Digital Circuits and
+                      Fundamentals of Microprocessor (1)</a>
                     <br>
-                    <a download="EE2203-Signal and Systems (2).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (2).pdf">EE2203-Signal and Systems (2)</a>
+                    <a download="ET2203-Digital Circuits and Fundamentals of Microprocessor (2).pdf"
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (2).pdf">ET2203-Digital Circuits and
+                      Fundamentals of Microprocessor (2)</a>
                     <br>
-                    <a download="EE2203-Signal and Systems (3).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (3).pdf">EE2203-Signal and Systems (3)</a>
+                    <a download="ET2203-Digital Circuits and Fundamentals of Microprocessor (3).pdf"
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (3).pdf">ET2203-Digital Circuits and
+                      Fundamentals of Microprocessor (3)</a>
                     <br>
 
                   </div>
@@ -175,8 +164,8 @@
         <ul>
           <li>
             <!-- Button trigger modal -->
-            <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal3">
-              EE2205-Digital Logic Design
+            <button type="button" class="btn btn1" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+              ET2205-Electronics Measurement and Instrumentation
             </button>
 
             <!-- Modal -->
@@ -185,18 +174,22 @@
               <div class="modal-dialog">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">EE2205-Digital Logic Design</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">ET2205-Electronics Measurement and Instrumentation
+                    </h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
-                    <a download="EE2205-Digital Logic Design (1).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (1).pdf">EE2205-Digital Logic Design (1)</a>
+                    <a download="ET2205-Electronics Measurement and Instrumentation (1).pdf"
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (1).pdf">ET2205-Electronics Measurement and
+                      Instrumentation (1)</a>
                     <br>
-                    <a download="EE2205-Digital Logic Design (2).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (2).pdf">EE2205-Digital Logic Design (2)</a>
+                    <a download="ET2205-Electronics Measurement and Instrumentation (2).pdf"
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (2).pdf">ET2205-Electronics Measurement and
+                      Instrumentation (2)</a>
                     <br>
-                    <a download="EE2205-Digital Logic Design (3).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (3).pdf">EE2205-Digital Logic Design (3)</a>
+                    <a download="ET2205-Electronics Measurement and Instrumentation (3).pdf"
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (3).pdf">ET2205-Electronics Measurement and
+                      Instrumentation (3)</a>
                     <br>
 
                   </div>
@@ -213,8 +206,8 @@
         <ul>
           <li>
             <!-- Button trigger modal -->
-            <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal4">
-              EE2207-Network Analysis
+            <button type="button" class="btn btn1" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+              ET2207-Network Analysis
             </button>
 
             <!-- Modal -->
@@ -223,16 +216,19 @@
               <div class="modal-dialog">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">EE2207-Network Analysis</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">ET2207-Network Analysis</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
-                    <a download="EE2207-Network Analysis (1).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (1).pdf">EE2207-Network Analysis (1)</a> <br>
-                    <a download="EE2207-Network Analysis (2).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (2).pdf">EE2207-Network Analysis (2)</a> <br>
-                    <a download="EE2207-Network Analysis (3).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (3).pdf">EE2207-Network Analysis (3)</a> <br>
+                    <a download="ET2207-Network Analysis (1).pdf"
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (1).pdf">ET2207-Network Analysis (1)</a>
+                    <br>
+                    <a download="ET2207-Network Analysis (2).pdf"
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (2).pdf">ET2207-Network Analysis (2)</a>
+                    <br>
+                    <a download="ET2207-Network Analysis (3).pdf"
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (3).pdf">ET2207-Network Analysis (3)</a>
+                    <br>
 
                   </div>
                   <div class="modal-footer">
@@ -251,17 +247,15 @@
     <div class="Semester w3-margin">
       <!-- <input type="checkbox" checked> -->
       <!-- <i></i> -->
-      <div class="button w3-btn w3-block w3-light-green w3-left-align" onclick="myFunction('Demo2')">Fourth Semester
+      <div class="button w3-btn w3-block w3-center-align" onclick="myFunction('Demo2')">Fourth Semester
       </div>
       <div class="madi w3-container w3-hide" id="Demo2">
-
-
 
         <!-- ------------------------------------bootstrap------------------------------------ -->
         <ul>
           <li>
             <!-- Button trigger modal -->
-            <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal5">
+            <button type="button" class="btn btn1" data-bs-toggle="modal" data-bs-target="#exampleModal5">
               GE2204-Advance Mathematical Techniques
             </button>
 
@@ -276,14 +270,17 @@
                   </div>
                   <div class="modal-body">
                     <a download="GE2204-Advance Mathematical Techniques (1).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (1).pdf">GE2204-Advance Mathematical
-                      Techniques (1)</a> <br>
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (1).pdf">GE2204-Advance Mathematical
+                      Techniques (1)</a>
+                    <br>
                     <a download="GE2204-Advance Mathematical Techniques (2).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (2).pdf">GE2204-Advance Mathematical
-                      Techniques (2)</a> <br>
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (2).pdf">GE2204-Advance Mathematical
+                      Techniques (2)</a>
+                    <br>
                     <a download="GE2204-Advance Mathematical Techniques (3).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (3).pdf">GE2204-Advance Mathematical
-                      Techniques (3)</a> <br>
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (3).pdf">GE2204-Advance Mathematical
+                      Techniques (3)</a>
+                    <br>
 
                   </div>
                   <div class="modal-footer">
@@ -299,9 +296,8 @@
         <ul>
           <li>
             <!-- Button trigger modal -->
-            <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal6">
-              EE2251-Electronic Circuits
-            </button>
+            <button type="button" class="btn btn1" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+              ET2251-Electromagnetic Field </button>
 
             <!-- Modal -->
             <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel"
@@ -309,18 +305,18 @@
               <div class="modal-dialog">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">EE2251-Electronic Circuits</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">ET2251-Electromagnetic Field</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
-                    <a download="EE2251-Electronic Circuits (1).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (1).pdf">EE2251-Electronic Circuits (1)</a>
+                    <a download="ET2251-Electromagnetic Field (1).pdf"
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (1).pdf">ET2251-Electromagnetic Field (1)</a>
                     <br>
-                    <a download="EE2251-Electronic Circuits (2).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (2).pdf">EE2251-Electronic Circuits (2)</a>
+                    <a download="ET2251-Electromagnetic Field (2).pdf"
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (2).pdf">ET2251-Electromagnetic Field (2)</a>
                     <br>
-                    <a download="EE2251-Electronic Circuits (3).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (3).pdf">EE2251-Electronic Circuits (3)</a>
+                    <a download="ET2251-Electromagnetic Field (3).pdf"
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (3).pdf">ET2251-Electromagnetic Field (3)</a>
                     <br>
 
                   </div>
@@ -333,14 +329,12 @@
           </li>
         </ul>
 
-
-
         <!-- ------------------------------------bootstrap------------------------------------ -->
         <ul>
           <li>
             <!-- Button trigger modal -->
-            <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal7">
-              EE2253-Microcontroller and its Applications
+            <button type="button" class="btn btn1" data-bs-toggle="modal" data-bs-target="#exampleModal7">
+              ET2252-Microcontroller and Interfacing
             </button>
 
             <!-- Modal -->
@@ -349,19 +343,22 @@
               <div class="modal-dialog">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">EE2253-Microcontroller and its Applications</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">ET2252-Microcontroller and Interfacing</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
-                    <a download="EE2253-Microcontroller and its Applications (1).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (1).pdf">EE2253-Microcontroller and its
-                      Applications (1)</a> <br>
-                    <a download="EE2253-Microcontroller and its Applications (2).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (2).pdf">EE2253-Microcontroller and its
-                      Applications (2)</a> <br>
-                    <a download="EE2253-Microcontroller and its Applications (3).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (3).pdf">EE2253-Microcontroller and its
-                      Applications (3)</a> <br>
+                    <a download="ET2252-Microcontroller and Interfacing (1).pdf"
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (1).pdf">ET2252-Microcontroller and
+                      Interfacing (1)</a>
+                    <br>
+                    <a download="ET2252-Microcontroller and Interfacing (2).pdf"
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (2).pdf">ET2252-Microcontroller and
+                      Interfacing (2)</a>
+                    <br>
+                    <a download="ET2252-Microcontroller and Interfacing (3).pdf"
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (3).pdf">ET2252-Microcontroller and
+                      Interfacing (3)</a>
+                    <br>
 
                   </div>
                   <div class="modal-footer">
@@ -377,8 +374,8 @@
         <ul>
           <li>
             <!-- Button trigger modal -->
-            <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal8">
-              EE2255-Analog Communication
+            <button type="button" class="btn btn1" data-bs-toggle="modal" data-bs-target="#exampleModal8">
+              ET2254-Analog Communication
             </button>
 
             <!-- Modal -->
@@ -387,18 +384,18 @@
               <div class="modal-dialog">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">EE2255-Analog Communication</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">GE2204-Advance Mathematical Techniques</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
-                    <a download="EE2255-Analog Communication (1).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (1).pdf">EE2255-Analog Communication (1)</a>
+                    <a download="ET2254-Analog Communication (1).pdf"
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (1).pdf">ET2254-Analog Communication (1)</a>
                     <br>
-                    <a download="EE2255-Analog Communication (2).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (2).pdf">EE2255-Analog Communication (2)</a>
+                    <a download="ET2254-Analog Communication (2).pdf"
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (2).pdf">ET2254-Analog Communication (2)</a>
                     <br>
-                    <a download="EE2255-Analog Communication (3).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (3).pdf">EE2255-Analog Communication (3)</a>
+                    <a download="ET2254-Analog Communication (3).pdf"
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (3).pdf">ET2254-Analog Communication (3)</a>
                     <br>
 
                   </div>
@@ -415,8 +412,8 @@
         <ul>
           <li>
             <!-- Button trigger modal -->
-            <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal9">
-              EE2257-Electromagnetic Fields
+            <button type="button" class="btn btn1" data-bs-toggle="modal" data-bs-target="#exampleModal9">
+              ET2256-Control Systems
             </button>
 
             <!-- Modal -->
@@ -425,18 +422,18 @@
               <div class="modal-dialog">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">EE2257-Electromagnetic Fields</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">ET2256-Control Systems</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
-                    <a download="EE2257-Electromagnetic Fields (1).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (1).pdf">EE2257-Electromagnetic Fields
-                      (1)</a> <br>
-                    <a download="EE2257-Electromagnetic Fields (2).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (2).pdf">EE2257-Electromagnetic Fields (2)</a>
+                    <a download="ET2256-Control Systems (1).pdf"
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (1).pdf">ET2256-Control Systems (1)</a>
                     <br>
-                    <a download="EE2257-Electromagnetic Fields (3).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (3).pdf">EE2257-Electromagnetic Fields (3)</a>
+                    <a download="ET2256-Control Systems (2).pdf"
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (2).pdf">ET2256-Control Systems (2)</a>
+                    <br>
+                    <a download="ET2256-Control Systems (3).pdf"
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (3).pdf">ET2256-Control Systems (3)</a>
                     <br>
 
                   </div>
@@ -455,7 +452,7 @@
     <div class="Semester w3-margin">
       <!-- <input type="checkbox" checked> -->
       <!-- <i></i> -->
-      <div class="button w3-btn w3-block w3-light-green w3-left-align" onclick="myFunction('Demo3')">Fifth Semester
+      <div class="button w3-btn w3-block w3-center-align" onclick="myFunction('Demo3')">Fifth Semester
       </div>
       <div class="madi w3-container w3-hide" id="Demo3">
 
@@ -463,12 +460,187 @@
         <ul>
           <li>
             <!-- Button trigger modal -->
-            <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal10">
-              GE2311-Fundamental of Management
+            <button type="button" class="btn btn1" data-bs-toggle="modal" data-bs-target="#exampleModal10">
+              GE2312-Fundamental of Economics
             </button>
 
             <!-- Modal -->
             <div class="modal fade" id="exampleModal10" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">GE2312-Fundamental of Economics</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <a download="GE2312-Fundamental of Economics (1).pdf"
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (1).pdf">GE2312-Fundamental of Economics
+                      (1)</a>
+                    <br>
+                    <a download="GE2312-Fundamental of Economics (2).pdf"
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (2).pdf">GE2312-Fundamental of Economics
+                      (2)</a>
+                    <br>
+                    <a download="GE2312-Fundamental of Economics (3).pdf"
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (3).pdf">GE2312-Fundamental of Economics
+                      (3)</a>
+                    <br>
+
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+        <!-- ------------------------------------bootstrap------------------------------------ -->
+        <ul>
+          <li>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn1" data-bs-toggle="modal" data-bs-target="#exampleModal11">
+              ET2301 -Analog Integrated circuits
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal11" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">ET2301 -Analog Integrated circuits</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <a download="ET2301 -Analog Integrated circuits (1).pdf"
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (1).pdf">ET2301 -Analog Integrated circuits
+                      (1)</a>
+                    <br>
+                    <a download="ET2301 -Analog Integrated circuits (2).pdf"
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (2).pdf">ET2301 -Analog Integrated circuits
+                      (2)</a>
+                    <br>
+                    <a download="ET2301 -Analog Integrated circuits (3).pdf"
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (3).pdf">ET2301 -Analog Integrated circuits
+                      (3)</a>
+                    <br>
+
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+        <!-- ------------------------------------bootstrap------------------------------------ -->
+        <ul>
+          <li>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn1" data-bs-toggle="modal" data-bs-target="#exampleModal12">
+              ET2303-Fields & Radiating Systems
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal12" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">ET2303-Fields & Radiating Systems</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <a download="ET2303-Fields & Radiating Systems (1).pdf"
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (1).pdf">ET2303-Fields & Radiating Systems
+                      (1)</a>
+                    <br>
+                    <a download="ET2303-Fields & Radiating Systems (2).pdf"
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (2).pdf">ET2303-Fields & Radiating Systems
+                      (2)</a>
+                    <br>
+                    <a download="ET2303-Fields & Radiating Systems (3).pdf"
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (3).pdf">ET2303-Fields & Radiating Systems
+                      (3)</a>
+                    <br>
+
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+
+        <!-- ------------------------------------bootstrap------------------------------------ -->
+        <ul>
+          <li>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn1" data-bs-toggle="modal" data-bs-target="#exampleModal13">
+              ET2304 -Signals & Systems
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal13" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">ET2304 -Signals & Systems</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <a download="ET2304 -Signals & Systems (1).pdf"
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (1).pdf">ET2304 -Signals & Systems
+                      (1)</a>
+                    <br>
+                    <a download="ET2304 -Signals & Systems (2).pdf"
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (2).pdf">ET2304 -Signals & Systems
+                      (2)</a>
+                    <br>
+                    <a download="ET2304 -Signals & Systems (3).pdf"
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (3).pdf">ET2304 -Signals & Systems
+                      (3)</a>
+                    <br>
+
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+
+    <div class="Semester w3-margin">
+      <!-- <input type="checkbox" checked> -->
+      <!-- <i></i> -->
+      <div class="button w3-btn w3-block w3-center-align" onclick="myFunction('Demo4')">Sixth Semester
+      </div>
+      <div class="madi w3-container w3-hide" id="Demo4">
+
+        <!-- ------------------------------------bootstrap------------------------------------ -->
+        <ul>
+          <li>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn1" data-bs-toggle="modal" data-bs-target="#exampleModal14">
+              GE2311-Fundamental of Management
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal14" tabindex="-1" aria-labelledby="exampleModalLabel"
               aria-hidden="true">
               <div class="modal-dialog">
                 <div class="modal-content">
@@ -478,14 +650,15 @@
                   </div>
                   <div class="modal-body">
                     <a download="GE2311-Fundamental of Management (1).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (1).pdf">GE2311-Fundamental of Management
-                      (1)</a> <br>
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (1).pdf">GE2311-Fundamental of Management
+                      (1)</a>
+                    <br>
                     <a download="GE2311-Fundamental of Management (2).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (2).pdf">GE2311-Fundamental of Management
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (2).pdf">GE2311-Fundamental of Management
                       (2)</a>
                     <br>
                     <a download="GE2311-Fundamental of Management (3).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (3).pdf">GE2311-Fundamental of Management
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (3).pdf">GE2311-Fundamental of Management
                       (3)</a>
                     <br>
 
@@ -503,183 +676,8 @@
         <ul>
           <li>
             <!-- Button trigger modal -->
-            <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal11">
-              EE2301-Digital Signal Processing
-            </button>
-
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModal11" tabindex="-1" aria-labelledby="exampleModalLabel"
-              aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">EE2301-Digital Signal Processing</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    <a download="EE2301-Digital Signal Processing (1).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (1).pdf">EE2301-Digital Signal Processing
-                      (1)</a> <br>
-                    <a download="EE2301-Digital Signal Processing (2).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (2).pdf">EE2301-Digital Signal Processing
-                      (2)</a>
-                    <br>
-                    <a download="EE2301-Digital Signal Processing (3).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (3).pdf">EE2301-Digital Signal Processing
-                      (3)</a>
-                    <br>
-
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </li>
-        </ul>
-
-        <!-- ------------------------------------bootstrap------------------------------------ -->
-        <ul>
-          <li>
-            <!-- Button trigger modal -->
-            <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal12">
-              EE2303-Analog Integrated Circuit & its Application
-            </button>
-
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModal12" tabindex="-1" aria-labelledby="exampleModalLabel"
-              aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">EE2303-Analog Integrated Circuit & its Application
-                    </h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    <a download="EE2303-Analog Integrated Circuit & its Application (1).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (1).pdf">EE2303-Analog Integrated Circuit &
-                      its Application
-                      (1)</a> <br>
-                    <a download="EE2303-Analog Integrated Circuit & its Application (2).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (2).pdf">EE2303-Analog Integrated Circuit &
-                      its Application (2)</a>
-                    <br>
-                    <a download="EE2303-Analog Integrated Circuit & its Application (3).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (3).pdf">EE2303-Analog Integrated Circuit &
-                      its Application (3)</a>
-                    <br>
-
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </div>
-
-
-    <div class="Semester w3-margin">
-      <!-- <input type="checkbox" checked> -->
-      <!-- <i></i> -->
-      <div class="button w3-btn w3-block w3-light-green w3-left-align" onclick="myFunction('Demo4')">Sixth Semester
-      </div>
-      <div class="madi w3-container w3-hide" id="Demo4">
-
-        <!-- ------------------------------------bootstrap------------------------------------ -->
-        <ul>
-          <li>
-            <!-- Button trigger modal -->
-            <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal13">
-              GE2312-Fundamental of Economics
-            </button>
-
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModal13" tabindex="-1" aria-labelledby="exampleModalLabel"
-              aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">GE2312-Fundamental of Economics
-                    </h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    <a download="GE2312-Fundamental of Economics (1).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (1).pdf">GE2312-Fundamental of Economics
-                      (1)</a> <br>
-                    <a download="GE2312-Fundamental of Economics (2).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (2).pdf">GE2312-Fundamental of Economics
-                      (2)</a>
-                    <br>
-                    <a download="GE2312-Fundamental of Economics (3).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (3).pdf">GE2312-Fundamental of Economics
-                      (3)</a>
-                    <br>
-
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </li>
-        </ul>
-
-        <!-- ------------------------------------bootstrap------------------------------------ -->
-        <ul>
-          <li>
-            <!-- Button trigger modal -->
-            <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal14">
-              EE2351-Control System Engineering
-            </button>
-
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModal14" tabindex="-1" aria-labelledby="exampleModalLabel"
-              aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">EE2351-Control System Engineering
-                    </h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    <a download="EE2351-Control System Engineering (1).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (1).pdf">EE2351-Control System Engineering
-                      (1)</a> <br>
-                    <a download="EE2351-Control System Engineering (2).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (2).pdf">EE2351-Control System Engineering
-                      (2)</a>
-                    <br>
-                    <a download="EE2351-Control System Engineering (3).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (3).pdf">EE2351-Control System Engineering
-                      (3)</a>
-                    <br>
-
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </li>
-        </ul>
-
-
-        <!-- ------------------------------------bootstrap------------------------------------ -->
-        <ul>
-          <li>
-            <!-- Button trigger modal -->
-            <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal15">
-              EE2353-Digital Communication
+            <button type="button" class="btn btn1" data-bs-toggle="modal" data-bs-target="#exampleModal15">
+              ET2351-Digital Signal Processing
             </button>
 
             <!-- Modal -->
@@ -688,19 +686,21 @@
               <div class="modal-dialog">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">EE2353-Digital Communication
-                    </h5>
+                    <h5 class="modal-title" id="exampleModalLabel">ET2351-Digital Signal Processing</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
-                    <a download="EE2353-Digital Communication (1).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (1).pdf">EE2353-Digital Communication
-                      (1)</a> <br>
-                    <a download="EE2353-Digital Communication (2).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (2).pdf">EE2353-Digital Communication (2)</a>
+                    <a download="ET2351-Digital Signal Processing (1).pdf"
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (1).pdf">ET2351-Digital Signal Processing
+                      (1)</a>
                     <br>
-                    <a download="EE2353-Digital Communication (3).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (3).pdf">EE2353-Digital Communication (3)</a>
+                    <a download="ET2351-Digital Signal Processing (2).pdf"
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (2).pdf">ET2351-Digital Signal Processing
+                      (2)</a>
+                    <br>
+                    <a download="ET2351-Digital Signal Processing (3).pdf"
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (3).pdf">ET2351-Digital Signal Processing
+                      (3)</a>
                     <br>
 
                   </div>
@@ -719,16 +719,16 @@
     <div class="Semester w3-margin">
       <!-- <input type="checkbox" checked> -->
       <!-- <i></i> -->
-      <div class="button w3-btn w3-block w3-light-green w3-left-align" onclick="myFunction('Demo5')">Seventh Semester
-      </div>
+      <div class="button w3-btn w3-block w3-center-align" onclick="myFunction('Demo5')">Seventh
+        Semester</div>
       <div class="madi w3-container w3-hide" id="Demo5">
 
         <!-- ------------------------------------bootstrap------------------------------------ -->
         <ul>
           <li>
             <!-- Button trigger modal -->
-            <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal16">
-              EE2401-Digital System Design
+            <button type="button" class="btn btn1" data-bs-toggle="modal" data-bs-target="#exampleModal16">
+              ET2401-RF & Microwave
             </button>
 
             <!-- Modal -->
@@ -737,19 +737,61 @@
               <div class="modal-dialog">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">EE2401-Digital System Design
-                    </h5>
+                    <h5 class="modal-title" id="exampleModalLabel">ET2401-RF & Microwave</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
-                    <a download="EE2401-Digital System Design (1).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (1).pdf">EE2401-Digital System Design
-                      (1)</a> <br>
-                    <a download="EE2401-Digital System Design (2).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (2).pdf">EE2401-Digital System Design (2)</a>
+                    <a download="ET2351-Digital Signal Processing (1).pdf"
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (1).pdf">ET2401-RF & Microwave
+                      (1)</a>
                     <br>
-                    <a download="EE2401-Digital System Design (3).pdf"
-                      href="Qpprs/civil/sem 3/Engineering Mathematics III (3).pdf">EE2401-Digital System Design (3)</a>
+                    <a download="ET2351-Digital Signal Processing (2).pdf"
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (2).pdf">ET2401-RF & Microwave
+                      (2)</a>
+                    <br>
+                    <a download="ET2351-Digital Signal Processing (3).pdf"
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (3).pdf">ET2401-RF & Microwave
+                      (3)</a>
+                    <br>
+
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <!-- ------------------------------------bootstrap------------------------------------ -->
+        <ul>
+          <li>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn1" data-bs-toggle="modal" data-bs-target="#exampleModal17">
+              ET2403-Digital Communication
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal17" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">ET2403-Digital Communication</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <a download="ET2403-Digital Communication (1).pdf"
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (1).pdf">ET2403-Digital Communication
+                      (1)</a>
+                    <br>
+                    <a download="ET2403-Digital Communication (2).pdf"
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (2).pdf">ET2403-Digital Communication
+                      (2)</a>
+                    <br>
+                    <a download="ET2403-Digital Communication (3).pdf"
+                      href="../static/QPapers/civil/sem 3/Engineering Mathematics III (3).pdf">ET2403-Digital Communication
+                      (3)</a>
                     <br>
 
                   </div>
@@ -764,11 +806,13 @@
       </div>
     </div>
 
-    <script src="script.js"></script>
+    <script src="../static/javascript/script.js"></script>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
       </script>
+
   </div>
 </body>
+
 </html>
