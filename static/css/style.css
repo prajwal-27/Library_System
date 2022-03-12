@@ -36,12 +36,27 @@ body {
     color: #B0BEC5 !important;
 }
 
-.menu-bar {
+.menu-bar{
+    top: 0;
+    left: 0;
+    right: 0;
     background-color: #2b2b2b;
     text-align: right;
-    width: 100%;
-    padding-right: 2.5%;
-    padding-left: 2.5%;
+    width: 100vw;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 80px;
+}
+
+.foo {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #2b2b2b;
+    text-align: center;
+    width: 100vw;
+    padding-top: 40px;
+    color: #fff;
 }
 
 
@@ -148,7 +163,7 @@ html h2 {
     justify-content: space-evenly;
 }
 
-.sem{
+.sem {
     background-color: #303030;
     padding: 20px;
     margin: 25px;
@@ -158,8 +173,10 @@ html h2 {
     border:10px;
 }
 
-.remo1{
-float: left;
+.remo1 {
+    float: left;
+    height: 250px; 
+    width: 250px;
 }
 
 .btn{
@@ -172,5 +189,7 @@ float: left;
     padding: 10px;
     border-radius: 10px;
     border:10px;
-
+    background-color: #f1f1f1; 
+    color: #333333;
 }
+
