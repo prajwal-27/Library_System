@@ -1,225 +1,71 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="Cache-control" content="public">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Online Library</title>
-  <link rel="stylesheet" href="../static/css/style.css">
-  <!--<link rel="stylesheet" href="../static/css/civil.css">-->
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Library System</title>
+    <link rel="icon" href="../static/images/logo.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/css/style.css">
+  </head>
 
-  <!-- CSS only -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-</head>
-
-<body>
-  <header class="menu-bar">
-    
-    <a href="../index.html"><img class="logo" src="../static/images/logo.jpg" alt="logo"></a>
-
-    <ul>
-      <li id="#home" class=""><a href="../index.html">Home</a></li>
-    </ul>
-  </header>
-
-  <div class="brand">
-    Semester I
-  </div>
-  <div id="accordion">
-
-    <div class="Semester w3-margin">
-      <!-- <input type="checkbox" checked> -->
-      <!-- <i></i> -->
-      <div class="button w3-btn w3-block w3-center-align" onclick="myFunction('Demo1')">1st Semester</div>
-      <div class="madi w3-container w3-hide" id="Demo1">
-
-
-
-        <!-- ------------------------------------bootstrap------------------------------------ -->
-        <ul>
-          <li>
-            <!-- Button trigger modal -->
-            <button type="button" class="btn btn1" data-bs-toggle="modal" data-bs-target="#exampleModal">
-              GE2101-Engineering Mathematics I
-            </button>
-
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-              aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">GE2101-Engineering Mathematics I</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    <a download="Engineering Mathematics I - 1.pdf"
-                      href="../static/QPapers/sem1/Engineering Mathematics I (1).pdf">GE2101 - Engineering Mathematics I - 1 </a>
-                    <br>
-                    <a download="Engineering Mathematics I - 2.pdf"
-                      href="../static/QPapers/sem1/Engineering Mathematics I (2).pdf">GE2101 - Engineering Mathematics
-                      I - 2</a> <br>
-                    <a download="Engineering Mathematics I - 3.pdf"
-                      href="../static/QPapers/sem1/Engineering Mathematics I (3).pdf">GE2101 - Engineering Mathematics
-                      I - 3</a> <br>
-
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </li>
-        </ul>
-        <!-- ------------------------------------bootstrap------------------------------------ -->
-        <ul>
-          <li>
-            <!-- Button trigger modal -->
-            <button type="button" class="btn btn1" data-bs-toggle="modal" data-bs-target="#exampleModal1">
-              GE2105-Engineering Physics
-            </button>
-
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
-              aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">GE2105-Engineering Physics</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    <a download="Engineering Physics (1).pdf" href="../static/QPapers/sem1/Engineering Physics (1).pdf">GE2105 -
-                      Engineering Physics (1)</a> <br>
-                    <a download="Engineering Physics (2).pdf" href="../static/QPapers/sem1/Engineering Physics (2).pdf">GE2105 -
-                      Engineering Physics (2)</a> <br>
-                    <a download="Engineering Physics (1).pdf" href="../static/QPapers/sem1/Engineering Physics (3).pdf">GE2105 -
-                      Engineering Physics (3)</a> <br>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </li>
-        </ul>
-        <!-- ------------------------------------bootstrap------------------------------------ -->
-        <ul>
-          <li>
-            <!-- Button trigger modal -->
-            <button type="button" class="btn btn1" data-bs-toggle="modal" data-bs-target="#exampleModal2">
-              GE2107-Communications Skills
-            </button>
-
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
-              aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">GE2107-Communications Skills</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    <a download="Communications Skills (1).pdf"
-                      href="../static/QPapers/sem1/Communications Skills (1).pdf">GE2107-Communications Skills (1)</a> <br>
-                    <a download="Communications Skills (2).pdf"
-                      href="../static/QPapers/sem1/Communications Skills (2).pdf">GE2107-Communications Skills (2)</a> <br>
-                    <a download="Communications Skills (3).pdf"
-                      href="../static/QPapers/sem1/Communications Skills (3).pdf">GE2107-Communications Skills (3)</a> <br>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </li>
-        </ul>
-        <!-- ------------------------------------bootstrap------------------------------------ -->
-        <ul>
-          <li>
-            <!-- Button trigger modal -->
-            <button type="button" class="btn btn1" data-bs-toggle="modal" data-bs-target="#exampleModal3">
-              CV2101-Engineering Mechanics
-            </button>
-
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel"
-              aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">CV2101-Engineering Mechanics</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    <a download="Engineering Mechanics (1).pdf"
-                      href="../static/QPapers/sem1/Engineering Mechanics (1).pdf">CV2101-Engineering Mechanics (1)</a> <br>
-                    <a download="Engineering Mechanics (2).pdf"
-                      href="../static/QPapers/sem1/Engineering Mechanics (2).pdf">CV2101-Engineering Mechanics (2)</a> <br>
-                    <a download="Engineering Mechanics (3).pdf"
-                      href="../static/QPapers/sem1/Engineering Mechanics (3).pdf">CV2101-Engineering Mechanics (3)</a> <br>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </li>
-        </ul>
-        <!-- ------------------------------------bootstrap------------------------------------ -->
-        <ul>
-          <li>
-            <!-- Button trigger modal -->
-            <button type="button" class="btn btn1" data-bs-toggle="modal" data-bs-target="#exampleModal4">
-              IT2101-Introduction to Computer Programing
-            </button>
-
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel"
-              aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">IT2101-Introduction to Computer Programing
-                    </h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    <a download="Introduction to Computer Programing (1).pdf"
-                      href="../static/QPapers/sem1/Introduction to Computer Programing (1).pdf">IT2101-Introduction to
-                      Computer Programing (1)</a> <br>
-                    <a download="Introduction to Computer Programing (2).pdf"
-                      href="../static/QPapers/sem1/Introduction to Computer Programing (2).pdf">IT2101-Introduction to
-                      Computer Programing (2)</a> <br>
-                    <a download="Introduction to Computer Programing (3).pdf"
-                      href="../static/QPapers/sem1/Introduction to Computer Programing (3).pdf">IT2101-Introduction to
-                      Computer Programing (3)</a> <br>
-
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </li>
-        </ul>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">
+          <img src="../static/images/logo.jpg" alt="Logo" width="30" height="30" class="d-inline-block align-text-top mx-5">
+          Semester I
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto my-2 me-5">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+            </li>
+          </ul>
+          <div class="mx-3">
+            <button type="button" class="btn rounded-pill btn-outline-info">Student Login</button>
+          </div>
+        </div>
       </div>
+    </nav>
+
+    <div class="h2 my-5 text-center fw-bold">
+      Semester I
     </div>
 
-    <script src="../static/javascript/script.js"></script>
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-      </script>
+    <div class="container">
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Semester I
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <button type="button" class="btn btn-primary m-3">GE2101-Engineering Mathematics I</button>
+            <button type="button" class="btn btn-primary m-3">GE2105-Engineering Physics</button>
+            <button type="button" class="btn btn-primary m-3">GE2107-Communications Skills</button>
+            <button type="button" class="btn btn-primary m-3">CV2101-Engineering Mechanics</button>
+            <button type="button" class="btn btn-primary m-3">IT2101-Introduction to Computer Programing</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <!--<div class="footer mt-auto py-4 bg-dark">
+      <div class="container d-flex justify-content-around">
+        <span class="text-muted">This is a simple digital library webapp</span>
+        <span>Made with ❤️ by <a href="https://github.com/anshulhedau10" class="text-reset text-decoration-none fw-bold">Anshul Hedau</a></span>
+      </div>
+    </div>-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </div>
 </body>
 
